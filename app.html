@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mata Mosquito</title>
+        <link rel="stylesheet" href="estilo.css"/>
+        <script src="jogo.js"></script>
+        
+    </head>
+    <body onresize="ajustaTamanhoPalcoJogo();">
+        <div id="placar" class="placar">
+            Placar
+        </div>
+        <div class="painel">
+            <div class="vidas">
+                <img id="v1" src="imagens/coracao_cheio.png">
+                <img id="v2" src="imagens/coracao_cheio.png">
+                <img id="v3" src="imagens/coracao_cheio.png">
+            </div>
+        </div>
+    </body>
+    <script>
+        setInterval(posicaoRandomica, 1000);
+    </script>
+</html>
